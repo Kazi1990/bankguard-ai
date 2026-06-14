@@ -7,8 +7,7 @@ from datetime import datetime
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 SPLUNK_HEC_URL = "https://prd-p-7syl8.splunkcloud.com:8088/services/collector/event"
-SPLUNK_TOKEN = "83a75bbb-52a8-4952-89c8-99ade7d37f4e"
-
+SPLUNK_TOKEN = "YOUR_TOKEN_HERE"
 accounts = ["ACC001", "ACC002", "ACC003", "ACC004", "ACC005"]
 locations = ["Dhaka", "Chittagong", "London", "Dubai", "Unknown"]
 
